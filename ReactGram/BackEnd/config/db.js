@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+require('dotenv').config();
 
 // conection 
 const dbuser = process.env.DB_USER;
